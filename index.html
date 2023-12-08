@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Anti-Corruption Initiative</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+
+      <div class="nav">
+        <div class="logo">
+            <a href="#home"><img  src="img/logo.jpeg" alt="Anti-Corruption Initiative Logo" /></a>
+        </div>
+        <div class="links">
+          <a href="#home" class="mainlink">Home</a>
+          <a href="#about">About</a>
+          <a href="#stats">Corruption Stats</a>
+          <a href="#report">How to fight Corruption</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <!-- LANDING PAGE -->
+
+      <div class="landing" style="height: 80vh" id="home">
+        <div class="landingText" data-aos="fade-up" data-aos-duration="1000">
+          <h1>
+            Stop Corruption.
+            <span style="color: #e0501b; font-size: 4vw"
+              >Reclaim Integrity.</span
+            >
+          </h1>
+          <h3>
+            Join us in eradicating corruption. Let's build a transparent and
+            accountable society.
+          </h3>
+          <div class="btn">
+            <a href="#">Take Action</a>
+          </div>
+        </div>
+        <div class="landingImage" data-aos="fade-down" data-aos-duration="2000">
+          <img src="img/corrupt.png" alt="" />
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+
+      <div class="about" id="about">
+        <div class="aboutText" data-aos="fade-up" data-aos-duration="1000">
+          <h1>
+            Why Fighting <br />
+            <span style="color: #2f8be0; font-size: 3vw"
+              >Corruption Matters?</span
+            >
+          </h1>
+          <!-- <img src="img/image1.jpeg" alt=""> -->
+        </div>
+        <div class="aboutList" data-aos="fade-left" data-aos-duration="1000">
+          <ol>
+            <li>
+              <span>01</span>
+              <p>
+                Corruption undermines trust in institutions and affects economic
+                growth and social progress.
+              </p>
+            </li>
+            <li>
+              <span>02</span>
+              <p>
+                It diverts resources away from essential public services like
+                healthcare and education.
+              </p>
+            </li>
+            <li>
+              <span>03</span>
+              <p>
+                Combatting corruption creates a fair and just environment for
+                everyone, ensuring equal opportunities.
+              </p>
+            </li>
+            <li>
+              <span>04</span>
+              <p>
+                Transparency and accountability are key in preventing corruption
+                and promoting ethical governance.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="corruptionStats" id="stats">
+        <div class="statsHeader" data-aos="fade-up" data-aos-duration="1000">
+          <h1>Corruption Statistics</h1>
+        </div>
+
+        <!-- Graphs -->
+        <div
+          class="chart-container"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <canvas id="corruptionChart" width="800" height="400"></canvas>
+        </div>
+      </div>
+      <!-- INFO SECTION -->
+
+      <div class="infoSection" id="report">
+        <div class="infoHeader" data-aos="fade-up" data-aos-duration="1000">
+          <h1>
+            Ways to Fight <br />
+            <span style="color: #e0501b">Corruption.</span>
+          </h1>
+        </div>
+        <div class="infoCards">
+          <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+            <img
+              src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/22/2015/10/AntiCorruption400.jpg"
+              class="cardoneImg"
+              alt=""
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            />
+            <div class="cardbgone"></div>
+            <div class="cardContent">
+              <h2>Raise Awareness</h2>
+              <p>
+                Spread awareness about corruption's impact and educate people on
+                ethical practices.
+              </p>
+              <a href="#">
+                <div class="cardBtn">
+                  <img src="img/next.png" alt="" class="cardIcon" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card two" data-aos="fade-up" data-aos-duration="1300">
+            <img
+              src="https://law.asia/wp-content/uploads/2021/12/Emergence-of-strict-anti-corruption-regime-L.jpg"
+              class="cardtwoImg"
+              alt=""
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            />
+            <div class="cardbgtwo"></div>
+            <div class="cardContent">
+              <h2>Report Corruption</h2>
+              <p>
+                Provide mechanisms and safe avenues for people to report corrupt
+                activities anonymously.
+              </p>
+              <a href="#">
+                <div class="cardBtn">
+                  <img src="img/next.png" alt="" class="cardIcon" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card three" data-aos="fade-up" data-aos-duration="1600">
+            <img
+              src="https://effectivemanagers.com/wp-content/uploads/2017/09/Accountability-where-does-it-come-from.jpg"
+              class="cardthreeImg"
+              alt=""
+              data-aos="fade-up"
+              data-aos-duration="1300"
+            />
+            <div class="cardbgone"></div>
+            <div class="cardContent">
+              <h2>Ensure Accountability</h2>
+              <p>
+                Hold accountable those involved in corrupt practices through
+                fair legal proceedings and consequences.
+              </p>
+              <a href="#">
+                <div class="cardBtn">
+                  <img src="img/next.png" alt="" class="cardIcon" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BANNER AND FOOTER -->
+
+      <div class="banner">
+        <div class="bannerText" data-aos="fade-right" data-aos-duration="1000">
+          <h1>
+            Together Against Corruption. <br />
+            <span
+              style="font-size: 1.6vw; font-weight: normal"
+              class="bannerInnerText"
+            >
+              Take a stand for integrity and transparency in our society!
+            </span>
+          </h1>
+          <a href="#">
+            <img
+              src="img/https://effectivemanagers.com/wp-content/uploads/2017/09/Accountability-where-does-it-come-from.jpg"
+              alt=""
+            />
+          </a>
+          <a href="#"> <img src="img/fight.png" alt="" /> </a>
+        </div>
+        <div class="bannerImg" data-aos="fade-up" data-aos-duration="1000">
+          <img src="img/image1.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <div class="footer" id="contact">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#stats" class="main-link">Corruption Stats</a>
+          <a href="#report">Report Corruption</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="contact-info">
+          <p><i>Contact us: </i> info@corruptionopposers.com</p>
+          <p><i>Phone: </i> +254 706 394 729</p>
+        </div>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="chart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
