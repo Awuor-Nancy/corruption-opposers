@@ -1,11 +1,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
-html,body{
-    background-color: #caa73d;
-    font-family: 'Source Sans Pro',sans-serif;
-    overflow-x: hidden !important;
-    margin: 0px !important;
-    padding: 0px !important;
+html, body {
+  background-color: #caa73d;
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 *{
@@ -80,12 +80,12 @@ img {
 .landingText h1{
     font-size: 6vw;
     margin: 0 !important;
+    color: #fff;
 }
 
 .landingText h3{
     margin: 6px !important;
     font-size: 20px;
-    opacity: 0.3;
     line-height: 30px;
     color: #000;
 }
@@ -110,80 +110,68 @@ img {
     max-width: 100%;
 }
 
-/* ABOUT CSS */
-.about{
-    height: 600px;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.aboutText {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutWhy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.aboutImage img {
+  width: 45%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.aboutList {
+  width: 45%;
+}
+
+.aboutList h1 {
+  margin-bottom: 20px;
+}
+
+.aboutList ol {
+  list-style: none;
+  padding: 0;
+}
+
+.aboutList li {
+  margin-bottom: 20px;
+}
+
+.aboutList li span {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #2f8be0;
+}
+.corruptionStats{
+    text-align: center;
+    background-color: #403f3f;
+    margin: 20px;
+    margin: auto;
     align-items: center;
 }
 
-.aboutText{
-    position: relative;
-    padding: 0 50px;
-    height: inherit;
-}
-
-.aboutText h1{
-    position: relative;
-    left: 110px;
-}
-
-.aboutText img{
-    width: 10vw;
-    position: absolute;
-    top: 50px;
-}
-
-.aboutList{
-    width: 50%;
-}
-
-ol{
-    list-style: none;
-    color: #e0501b;
-}
-
-ol li{
-    font-size: 34px;
-    position: relative;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ebebeb;
-}
-
-li p{
-    font-size: 16px;
-    color: #000;
-    padding-left: 60px;
-    line-height: 30px;
-    opacity: 0.6;
-}
-
-li span{
-    position: absolute;
-    line-height: 25px;
-    font-weight: 600;
-}
-
-/* Stats Section */
-.corruptionStats {
-    padding: 50px;
-    text-align: center;
-    background-color: #383838;
+.statsHeader h1{
     color: #caa73d;
 }
-
-.statsHeader {
-    margin-bottom: 30px;
-}
-
-.chart-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 /* INFO_SECTION CSS */
 
 .infoSection{
@@ -204,7 +192,7 @@ li span{
 }
 
 .infoCards .card{
-    position: relative;
+    /* position: relative; */
     height: 360px;
     width: 350px;
     background: #fff;
@@ -215,19 +203,19 @@ li span{
     width: 180px;
     position: absolute;
     top: -50px;
-    right: -50px;
+    /* right: -50px; */
 }
 .infoCards .two .cardtwoImg{
-    width: 158px;
+    width: 180px;
     position: absolute;
     top: -50px;
-    right: -50px;
+    /* right: -50px; */
 }
 .infoCards .three .cardthreeImg{
-    width: 200px;
+    width: 180px;
     position: absolute;
     top: -50px;
-    right: -50px;
+    /* right: -50px; */
 }
 
 .cardbgone{
@@ -299,7 +287,7 @@ li span{
 
 .bannerText img{
     width: 10vw;
-    margin-right: 20px;
+    margin:auto;
 }
 
 .bannerImg img{
